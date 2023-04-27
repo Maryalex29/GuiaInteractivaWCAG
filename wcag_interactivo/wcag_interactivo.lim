@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.2">
+    <config>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>ffffff</corfondo>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>WCAG Interactivo</titulo>
+        <informe>1</informe>
+        <botonson>1</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >CORRECTO</correcto>
+        <incorrecto son="" modo="1" >INCORRECTO</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>24</tipo>
+              <cabeceira>1.1.1 Alternativas textuales</cabeceira>
+              <pe>¿Cuál de las siguientes imágenes no cumple el criterio?</pe>
+              <etiqueta imaxe="AT1.PNG" texto="">0</etiqueta>
+              <etiqueta imaxe="fail.png" texto="">1</etiqueta>
+              <etiqueta imaxe="Dino.png" texto="">0</etiqueta>
+              <etiqueta imaxe="ejemplo_1.png" texto="">0</etiqueta>
+              <etiqueta imaxe="" texto="">0</etiqueta>
+              <etiqueta imaxe="" texto="">0</etiqueta>
+              <cfondo>BF7DEC</cfondo>
+        </paxina>
+        <paxina id="2" >
+              <tipo>18</tipo>
+              <cabeceira>1.2.1 Solo Audio o video</cabeceira>
+              <pe>Complete las oraciones</pe>
+              <modo>3</modo>
+              <completa ant="para un audio o video grabado debe existir una   " post="que muestre la misma informacion">alternativa</completa>
+              <completa ant="texto, imagen, o " post="si es video">audio</completa>
+              <completa ant="en la misma pagina o en un" post="que lleve a ello.">enlance</completa>
+        </paxina>
+        <paxina id="3" >
+              <tipo>19</tipo>
+              <cabeceira>1.2.2 ¿ ?</cabeceira>
+              <pe>Adivina el nombre del criterio</pe>
+              <imaxe alt="subtítulos">sunwukon.PNG</imaxe>
+              <texto><![CDATA[¿Comó se llama este criterio del principio perceptible?]]></texto>
+              <resp texto="">subtitulos</resp>
+              <modo>0</modo>
+              <forma>1</forma>
+        </paxina>
+        <paxina id="4" >
+              <tipo>24</tipo>
+              <cabeceira>1.2.3 Descripcion de audio</cabeceira>
+              <pe>Marque todas las personas que se benefician con este criterio</pe>
+              <etiqueta imaxe="alien.png" texto="Extraterrestre">0</etiqueta>
+              <etiqueta imaxe="cieguito.jpg" texto="Ciego">1</etiqueta>
+              <etiqueta imaxe="mariana-pajon.jpg" texto="Deportista">0</etiqueta>
+              <etiqueta imaxe="dislexia.png" texto="Limitaciones cognitivas">1</etiqueta>
+              <etiqueta imaxe="rueditas.jpg" texto="Silla de ruedas">0</etiqueta>
+              <etiqueta imaxe="Harry_Potter2.jpg" texto="Problemas visuales">1</etiqueta>
+              <cfondo>BF7DEC</cfondo>
+        </paxina>
+        <paxina id="5" >
+              <tipo>38</tipo>
+              <cabeceira>1.3.1 Informacion y relaciones</cabeceira>
+              <pe>Repaso de criterio ej:Campos Obligatorios</pe>
+              <mais ir="http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/content-structure-separation-programmatic.html">Mas info</mais>
+              <imaxe>1_Campos_obligatorios.PNG</imaxe>
+              <forma>2</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#0000A0" face="Cambria" size="20"><b>La razon por la que este ejemplo "Campos obligatorios" cumple con el criterio es porque:</b><br>
+<b>Un formulario contiene algunos campos obligatorios y otros opcionales. Las instrucciones en la parte superior de la página explican que los campos obligatorios están marcados con texto de color rojo y también con un ícono (*) cuya alternativa textual dice: "Obligatorio". Tanto el texto en rojo como el ícono están asociados por software con los campos correspondientes, de modo que los usuarios de ayudas técnicas pueden identificar los campos obligatorios.</b><br>
+</font></p>
+]]></texto>
+              <cfondo>FFFFFF</cfondo>
+              <ctexto>000000</ctexto>
+        </paxina>
+        <paxina id="6" >
+              <tipo>11</tipo>
+              <cabeceira>1.3.3 Características sensoriales</cabeceira>
+              <pe>Asocia los iconos con su respectivo significado</pe>
+              <modo>3</modo>
+              <cousa nome="Guia de tramites y servicios">i1.PNG</cousa>
+              <cousa nome="Paga tu factura">i2.PNG</cousa>
+              <cousa nome="Peticiones, Quejas y Reclamos">i3.PNG</cousa>
+        </paxina>
+        <paxina id="7" >
+              <tipo>4</tipo>
+              <cabeceira>1.4.1 Uso del color (que cambio en la siguiente acciones)</cabeceira>
+              <pe>Color-Direccion-Texto-Normal-Estado-Icono</pe>
+              <modo>2</modo>
+              <sopa enun="color.PNG">Color</sopa>
+              <sopa enun="Direcci_on.PNG">Direccion</sopa>
+              <sopa enun="Texto.PNG">Texto</sopa>
+              <sopa enun="Sonido.jpeg">Normal</sopa>
+              <sopa enun="Silenciar.jpeg">Estado</sopa>
+              <sopa enun="Vibrar.jpeg">Icono</sopa>
+              <enunciado>1</enunciado>
+              <colorea>1</colorea>
+              <cadro>1</cadro>
+        </paxina>
+        <paxina id="8" >
+              <tipo>1</tipo>
+              <cabeceira>1.4.2 Control de audio</cabeceira>
+              <pe>Seleccion multiple con multiples respuesta</pe>
+              <imaxe>1_reproductor.PNG</imaxe>
+              <texto>¿En caso que el portal web cuente con sonido de fondo, debe ser posible?</texto>
+              <resp texto="" valor="1">Detener el sonido</resp>
+              <resp texto="" valor="0">Cerrar mi corazón</resp>
+              <resp texto="" valor="0">Cambiar el color de la pagina</resp>
+              <resp texto="" valor="1">Cambiar el volumen</resp>
+        </paxina>
+        <paxina id="9" >
+              <tipo>7</tipo>
+              <cabeceira>2.1.1 Teclado</cabeceira>
+              <pe>¿Qué imágenes identifica más a este criterio?</pe>
+              <caixa1>Si</caixa1>
+              <caixa2>No</caixa2>
+              <mini caixa="2">copipaste.jpg</mini>
+              <mini caixa="1">copypaste1.jpeg</mini>
+              <mini caixa="2">raton.jpg</mini>
+              <mini caixa="1">tab.jpg</mini>
+              <cfondo>DA0E36</cfondo>
+              <cadro></cadro>
+              <modo></modo>
+        </paxina>
+        <paxina id="10" >
+              <tipo>18</tipo>
+              <cabeceira>2.1.2 Sin trampas para el foco del teclado</cabeceira>
+              <pe>Completa el siguiente parrafo.</pe>
+              <modo>3</modo>
+              <completa ant="El foco del teclado no debe quedar" post="en un componente o ">atrapado</completa>
+              <completa ant="seccion de la" post=" web.">pagina</completa>
+              <completa ant="Si es posible mover el" post="a un componente de la página">foco</completa>
+              <completa ant="usando el" post="">teclado</completa>
+              <completa ant="entonces el foco se puede" post="de ese componente usando sólo el teclado.">quitar</completa>
+        </paxina>
+        <paxina id="11" >
+              <tipo>46</tipo>
+              <cabeceira>2.1.4 Atajos de teclas de caracteres</cabeceira>
+              <pe>Une con su complemento correcto</pe>
+              <etiqueta texto="componente que lo controla."  posy="2">Desactivar</etiqueta>
+              <etiqueta texto="el atajo de teclado."  posy="3">Reasignar el atajo a uno o más caracteres</etiqueta>
+              <etiqueta texto="de teclado no imprimible (Control, Alt, etc.)."  posy="1">Activar el atajo sólo cuando el foco está en el</etiqueta>
+        </paxina>
+        <paxina id="12" >
+              <tipo>5</tipo>
+              <cabeceira>2.2.1 Tiempo Ajustable</cabeceira>
+              <pe>Rayos X</pe>
+              <imaxe>pregunta.PNG</imaxe>
+              <texto><![CDATA[Copie y pegue la respuesta correcta
+
+Excepción de 20 horas
+Excepción de tiempo real
+Excepción por ser esencial
+Excepción obligatoria
+Excepción por continuidad
+
+]]></texto>
+              <imfondo  posx="97" posy="8">subasta.jpg</imfondo>
+              <ctapa>84E1FD</ctapa>
+              <resp>Excepción de tiempo real</resp>
+              <rdim>70</rdim>
+        </paxina>
+        <paxina id="13" >
+              <tipo>17</tipo>
+              <cabeceira>2.3.1 Tres parpadeos</cabeceira>
+              <pe>¡Cuidado! evita usar este tipo de contenido en tus páginas</pe>
+              <parellas>gif1.gif</parellas>
+              <parellas>gif2.gif</parellas>
+              <parellas>gif3.gif</parellas>
+              <parellas>gif4.gif</parellas>
+              <parellas>gif5.gif</parellas>
+              <parellas>gif6.gif</parellas>
+              <cfondo>FFFFFF</cfondo>
+              <ctapa>008080</ctapa>
+              <tempo>50</tempo>
+        </paxina>
+        <paxina id="14" >
+              <tipo>1</tipo>
+              <cabeceira>2.4.1 Anular Bloques</cabeceira>
+              <pe>Selección múltiple con unica respuesta</pe>
+              <imaxe>3.PNG</imaxe>
+              <texto>¿Para que sirve una tabla de contenidos o enlance en el inicio?</texto>
+              <resp texto="" valor="0">Para variar el menu</resp>
+              <resp texto="" valor="0">Para bloquear el teclado</resp>
+              <resp texto="" valor="1">Para no tener que recorrer cada sección de la pagina</resp>
+              <resp texto="" valor="0">Para no usar el mouse</resp>
+        </paxina>
+        <paxina id="15" >
+              <tipo>11</tipo>
+              <cabeceira>Los titulos de las paginas tienen que ser autodescriptivos y coherentes a sus propositos.</cabeceira>
+              <pe>2.4.2 Título de la página</pe>
+              <modo>3</modo>
+              <cousa nome="tumangaonline">manga.PNG</cousa>
+              <cousa nome="paratuhogar">hogar.jpg</cousa>
+              <cousa nome="Guitarworld">guitarra.jpg</cousa>
+              <cousa nome="Grua al rescate">grua.jpg</cousa>
+        </paxina>
+        <paxina id="16" >
+              <tipo>38</tipo>
+              <cabeceira>2.4.3 Orden del foco</cabeceira>
+              <pe>2.4.3 Repaso de criterio</pe>
+              <mais ir="http://www.sidar.org/traducciones/wcag20/es/comprender-wcag20/navigation-mechanisms-focus-order.html">Mas info</mais>
+              <imaxe>flechas.png</imaxe>
+              <forma>1</forma>
+              <texto><![CDATA[
+<p align="left">
+<font color="#FF0000" face="Arial" size="20">Si se puede navegar secuencialmente por una página web y la secuencia de navegación afecta su significado o su operación, los componentes que pueden recibir el foco lo hacen en un orden que preserva su significado y operabilidad<br>
+<br>
+</font><font color="#080000" face="Arial" size="18">El orden del foco puede no ser idéntico al orden de lectura determinado por software siempre y cuando el usuario pueda de todas formas comprender y operar la página web.<br>
+<br>
+Por ejemplo, un usuario de lector de pantalla interactúa con el orden de lectura determinado por software mientras que un usuario que puede ver, que utiliza el teclado, interactúa con la presentación visual de la página. <b>Se debe cuidar que el orden del foco tenga sentido para ambos usuarios y que ninguno de ellos sienta que salta de un elemento a otro en forma aleatoria</b><br>
+<br>
+En un sitio web que contiene un árbol de controles interactivos, el usuario puede utilizar las teclas de arriba y abajo para moverse de un nodo a otro. Al presionar la tecla izquierda puede expandir ese nodo y, presionando la tecla de abajo, recorrer los nuevos nodos expandidos <i>(mirar imagen)</i>.<br>
+<br>
+</font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+        </paxina>
+        <paxina id="17" >
+              <tipo>1</tipo>
+              <cabeceira>2.4.4 Propósito del enlace</cabeceira>
+              <pe>¿Cual titulo/enlance es mas acorde al contenido del enunciado?</pe>
+              <imaxe>leyenda.jpg</imaxe>
+              <texto>Me gusta mucho la torre del reloj de esta ciudad, siempre me eh preguntado por qué se creó.
+Una persona local de la ciudad me dijo que se construyó para viajar a Taje, un lugar místico que se abre cada cierta hora bajo las puertas de este monumento, donde el tiempo pasa más lento y el reloj te indica cuando debes volver o te tocara esperar meses para que las puertas se vuelvan abrir.
+muchos describen el lujar como asombroso, otros como aterrador, algunos que no existe que el reloj existe por otra razón.
+Sin importar la razón, me parece un lindo sitio.</texto>
+              <resp texto="" valor="0">Himno de Cartagena</resp>
+              <resp texto="" valor="0">Cartagena la Fantastica</resp>
+              <resp texto="" valor="0">¿Por que deberias visitar Cartagena?</resp>
+              <resp texto="" valor="1">Leyenda de Cartagena</resp>
+        </paxina>
+        <paxina id="18" >
+              <tipo>11</tipo>
+              <cabeceira>2.5 Modadilades de entrada</cabeceira>
+              <pe>Relaciona los criterios con los ejemplos</pe>
+              <modo>3</modo>
+              <cousa nome="2.5.3 Etiqueta en el nombre">etiqnombre.png</cousa>
+              <cousa nome="2.5.2 Cancelación de puntero">cancelar.PNG</cousa>
+              <cousa nome="2.5.4 Actuación por movimiento">sacudete.jpg</cousa>
+              <cousa nome="2.5.1 Gestos del puntero">top.PNG</cousa>
+        </paxina>
+        <paxina id="19" >
+              <tipo>7</tipo>
+              <cabeceira>3.1.1 Idioma de la página</cabeceira>
+              <pe>Verdadero o falso</pe>
+              <caixa1>Verdadero</caixa1>
+              <caixa2>Falso</caixa2>
+              <mini caixa="1">311.1.PNG</mini>
+              <mini caixa="1">311.2.PNG</mini>
+              <mini caixa="1">311.3.PNG</mini>
+              <mini caixa="2">311.4.PNG</mini>
+              <mini caixa="2">311.5.PNG</mini>
+              <cfondo>FD5200</cfondo>
+              <cadro>1</cadro>
+              <modo></modo>
+        </paxina>
+        <paxina id="20" >
+              <tipo>48</tipo>
+              <cabeceira>3.2.1 Al recibir el foco</cabeceira>
+              <pe>Repaso Ejemplos de  cambio de contexto</pe>
+              <frase imaxe="bocinaazul.PNG"  son="entrada_en_el_foco_-_copia.mp3">Los cambios de contexto incluyen: Aplicación de usuario, vista, foco, contenido que cambia el significado de la página web.</frase>
+              <frase imaxe="bocinanaranja.PNG"  son="ventanas.mp3">Nuevas ventanas que se abren cuando un componente recibe el foco.</frase>
+              <frase imaxe="bocinarosa.PNG"  son="saltos.mp3">El foco pasa a otro componente cuando un componente recibe el foco.</frase>
+              <frase imaxe="bocinaverde.PNG"  son="formulario.mp3">Formularios enviados automáticamente cuando un componente recibe el foco.</frase>
+              <modo>1</modo>
+        </paxina>
+        <paxina id="21" >
+              <tipo>3</tipo>
+              <cabeceira>3.2.2 Al recibir entradas</cabeceira>
+              <pe>Puzzle</pe>
+              <imaxe>puzzle.PNG</imaxe>
+              <filas>3</filas>
+              <columnas>3</columnas>
+              <reixa>0</reixa>
+            <forma>1</forma>
+        </paxina>
+        <paxina id="22" >
+              <tipo>11</tipo>
+              <cabeceira>3.3.# Identificación de errores // Etiquetas e instrucciones</cabeceira>
+              <pe>Pauta entrada de datos asistida</pe>
+              <modo>3</modo>
+              <cousa nome="Identificación de errores">carelibro.PNG</cousa>
+              <cousa nome="Etiquetas e instrucciones">2_ejemplo_formato.PNG</cousa>
+              <cousa nome="Ambos">ambos.PNG</cousa>
+        </paxina>
+        <paxina id="23" >
+              <tipo>10</tipo>
+              <cabeceira>4.1.1 Análisis</cabeceira>
+              <pe>Corrige las siguientes etiquetas</pe>
+              <imaxe>lenguajmk.jpg</imaxe>
+              <pregunta res="&lt;body&gt;...&lt;/body&gt;">body...body       //no olvides los 3 puntos</pregunta>
+        </paxina>
+    </libro>
+</lim>

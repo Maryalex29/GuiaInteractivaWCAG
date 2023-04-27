@@ -1,0 +1,16 @@
+
+Enlance a la Guia interactiva:
+https://investigacionhci.org/ejemplo/wcagop/index.html
+
+
+
+
+Actividades interactivas unificada:
+https://investigacionhci.org/ejemplo/wcaglim/wcag_interactivo.html
+
+
+Actividades interactivas por principio:
+
+https://investigacionhci.org/ejemplo/wcagperceptible/wcag_interactivop1.html
+https://investigacionhci.org/ejemplo/wcagoperable/wcag_interactivoo2.html
+https://investigacionhci.org/ejemplo/wcagcomrob/wcag_interactivocr34.html

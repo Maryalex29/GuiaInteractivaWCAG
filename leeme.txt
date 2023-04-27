@@ -1,0 +1,3 @@
+El wcagop.zip contiene el codigo fuente de la guia interactiva.
+
+El archivo wcag_interactivo.zip contiene el codigo fuente de las actividades interactivas.
